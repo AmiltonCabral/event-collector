@@ -19,7 +19,7 @@ This Go application collects events via HTTP and exports them to CSV files. It's
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/event-collector.git
+   git clone https://github.com/AmiltonCabral/event-collector.git
    ```
 2. Navigate to the project directory:
    ```
@@ -67,6 +67,6 @@ This Go application collects events via HTTP and exports them to CSV files. It's
 
 ## Notes
 
-- This application stores events in memory. For production use with large volumes of data, consider implementing a database backend.
-- The application does not implement authentication or authorization. Ensure to add security measures for production use.
+- This application stores events in memory.
+- The application does not implement authentication or authorization.
 - CSV files are regenerated entirely on each save. For very large datasets, consider implementing an append-only approach.
